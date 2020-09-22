@@ -1,0 +1,13 @@
+#pipe {
+
+    height: 450px;
+}
+
+#green-dragon {
+    height: 300px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}

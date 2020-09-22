@@ -1,29 +1,377 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
+
+<head>
+    <title>Sam for Constable</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
-  <body>
-    <!-- Navbar   -->
 
+<body>
+
+    <!-- NavBar -->
+    <div class="container-fluid bg-success ">
+        <nav class="navbar bg-success border-bottom border-dark fixed-top navbar-expand-sm">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-pills navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link text-success active btn-outline-light" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#issues">Issues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#values">Values</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#endorsements">Endorsements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#comments">Comments</a>
+                    </li>
+                </ul>
+            </div>
+            <h1 class="text-light">Samwise Gamgee 2020</h1>
+        </nav>
+    </div>
+
+    <!-- Banner Hobbiton Image with Slogan Overlay -->
     <!-- Jumbotron -->
+    <div class="jumbotron card card-image jumbotron-fluid mt-5 mb-5 pl-4 pr-4">
+        <div class="container-fluid">
+            <div class="row pl-4 pr-4">
+                <div class="col">
+                    <h2 class="pt-3 mb-5"><strong>Sam, the Wise choice for Constable</strong></h2>
+                    <p class="mx-5 mb-5">&quot;There's some good in this world ... and it's worth fighting for.&quot;
+                    </p>
+                </div>
+                <div class="col">
+                    <img id="pipe" src="img/sam-pipe.jpg" class="rounded float-right">
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Platform -->
+    <!-- ISSUES -->
+    <div id="issues"></div>
+    <h2 class="text-center pb-2">Sam on the Issues</h2>
+    <div class="container py-3">
+        <div class="card">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/img/garden.jpeg" class="w-100">
+                </div>
+                <div class="col-md-8 px-3">
+                    <div class="card-block px-3">
+                        <h4 class="card-title mt-2">Simple Lifestyle</h4>
+                        <p class="card-text">I like gardens, trees, and unmechanized farmlands; I smoke a pipe, and like
+                            good plain food (unrefrigerated), but detest French cooking; I like, and even dare to wear
+                            in these dull days, ornamental waistcoats. I am fond of mushrooms (out of a field); have a
+                            very simple sense of humour (which even my appreciative critics find tiresome); I go to bed
+                            late and get up late (when possible). I do not travel much.</p>
+                        <a href="#" class="btn btn-success mb-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="row ">
+                <div class="col-md-8 px-3 text-right">
+                    <div class="card-block px-3">
+                        <h4 class="card-title mt-2">Ending World Hunger</h4>
+                        <p class="card-text">Every person should enjoy a minimum of six meals per day, if you can get
+                            them: Breakfast, Second Breakfast, Elevenses, Luncheon, Afternoon Tea, Dinner, and Supper.
+                        </p>
+                        <a href="#" class="btn btn-success mb-2">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="/img/food.jpg" class="w-100">
+                </div>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="row ">
+                <div class="col-md-4">
+                    <img src="/img/hobbit-hole.png" class="w-100">
+                </div>
+                <div class="col-md-8 px-3">
+                    <div class="card-block px-3">
+                        <h4 class="card-title mt-2">Energy Conservation</h4>
+                        <p class="card-text">Homes should be built into the hillside, in order to take advantage of
+                            natural insulation of the earth and reduce the amount of energy we use for cooling and
+                            heating</p>
+                        <a href="#" class="btn btn-success mb-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
-    <!-- Optional JavaScript -->
+
+
+
+    <!-- VALUES Cards -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="values" class="mt-5 mb-5"></div>
+                <h2 class="text-center pb-2">Values</h2>
+                <div class="card-columns text-center text-light">
+                    <div class="card bg-success">
+                        <div class="card-header">LEADERSHIP</div>
+                        <div class="card-body text-center">
+                            <p class="card-text">Seven Consecutive Seven-Year Terms as Mayor of the Shire</p>
+                        </div>
+                    </div>
+                    <div class="card bg-success">
+                        <div class="card-header">LOYALTY</div>
+                        <div class="card-body text-center">
+                            <p class="card-text">&quot;Don't you leave him, Samwise Gamgee, and I don't mean to.&quot;
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-success">
+                        <div class="card-header">SELFLESSNESS</div>
+                        <div class="card-body text-center">
+                            <p class="card-text">&quot;I can't carry it for you. But I can carry you!&quot;</p>
+                        </div>
+                    </div>
+                    <div class="card bg-success">
+                        <div class="card-header">HONESTY</div>
+                        <div class="card-body text-center">
+                            <p class="card-text">&quot;I ain't been droppin' no eaves sir, honest&quot;.</p>
+                        </div>
+                    </div>
+                    <div class="card bg-success">
+                        <div class="card-header">BRAVERY</div>
+                        <div class="card-body text-center">
+                            <p class="card-text">Commander in the Battle of Bywater, Scourge of the Shire</p>
+                        </div>
+                    </div>
+                    <div class="card bg-success">
+                        <div class="card-header">PO-TAY-TOES</div>
+                        <div class="card-body text-center">
+                            <p class="card-text">&quot;Boil 'em, Mash 'em, Stick 'em in a Stew&quot;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Major Endorsements -->
+        <div id="endorsements" class="pt-5"></div>
+        <h2 class="text-center pt-5 pb-2">Endorsements</h2>
+        <div class="row">
+            <div class="col">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/frodo.jpg" alt="Frodo">
+                        <div class="card-body">
+                            <h4 class="card-title">Frodo Baggins</h4>
+                            <h5>The Ringbearer</h5>
+                            <p class="card-text">“I am glad you are here with me. Here at the end of all things, Sam.”
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="/img/merry.jpg" alt="Merry">
+                        <div class="card-body">
+                            <h4 class="card-title">Merriadoc "Merry" Brandybuck</h4>
+                            <h5>Master of Buckland<br>
+                                Esquire of Rohan</h5>
+                            <p class="card-text">“Frodo was really courageous, wasn't he, Dad?' 'Yes, my boy, the
+                                most
+                                famousest of hobbits. And that's saying a lot.' You've left out
+                                one of the chief characters - Samwise the Brave. I want to hear more about Sam.”</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="/img/pippin.jpg" alt="Pippin">
+                        <div class="card-body">
+                            <h4 class="card-title">Peregrin "Pippin" Took</h4>
+                            <h5>
+                                Thain of the Shire<br>
+                                Guard of the Citadel
+                            </h5>
+                            <p class="card-text">&quot;Sam is an excellent fellow, and would jump down a dragon’s
+                                throat
+                                to
+                                save you, if he did not trip over his own feet.&quot;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="events" class="mt-5 mb-5"></div>
+    <div class="container pt-3">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center mb-5 mt-3">Daily Event Schedule</h2>
+                <!-- Table of Events -->
+                <table class="table table-sm table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">Event</th>
+                            <th scope="col">Meal</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Town Hall</td>
+                            <td>Breakfast</td>
+                            <td>7 a.m.</td>
+                            <td>Bag End</td>
+                        </tr>
+                        <tr>
+                            <td>Fundraiser</td>
+                            <td>Second Breakfast</td>
+                            <td>9 a.m.</td>
+                            <td>The Watermill</td>
+                        </tr>
+                        <tr>
+                            <td>Rally</td>
+                            <td>Elevenses</td>
+                            <td>11 a.m.</td>
+                            <td>The Party Tree</td>
+                        </tr>
+                        <tr>
+                            <td>Lunch in the Garden</td>
+                            <td>Luncheon</td>
+                            <td>1 p.m.</td>
+                            <td>Bagshot Row</td>
+                        </tr>
+                        <tr>
+                            <td>Reading to the Children</td>
+                            <td>Afternoon Tea</td>
+                            <td>3 p.m.</td>
+                            <td>Old Stump</td>
+                        </tr>
+                        <tr>
+                            <td>Local Outreach</td>
+                            <td>Dinner</td>
+                            <td>6 p.m.</td>
+                            <td>The Prancing Pony</td>
+                        </tr>
+                        <tr>
+                            <td>Pints with Sam</td>
+                            <td>Supper</td>
+                            <td>9 p.m.</td>
+                            <td>Green Dragon Inn</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="row">
+                    <div class="col">
+                        <img class="rounded" id="green-dragon" src="img/green-dragon.jpg">
+
+                    </div>
+                    <div class="col">
+                        <h3 class="pt-3"><strong>Vote for Sam on Nov 5!</strong></h3>
+                        <h3><strong>Election Night Celebration at the Green Dragon Inn</strong></h3>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Comment Section for Public to Add their endoresements or air grievences -->
+    <div id="comments" class="mt-5 mb-5"></div>
+    <div class="container mb-5">
+        <h2 class="pt-3">Comments:</h2>
+        <p>
+            <a class="btn btn-success" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Show/Hide
+            </a>
+        </p>
+        <div class="collapse collapse.show" id="collapseExample">
+            <div class="media border p-3">
+                <img src="/img/smeagol.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                <div class="media-body">
+                    <h4>Smeagol <small><i>Posted on September 19, 2020</i></small></h4>
+                    <p>Hobbits always so polite, yes! O nice hobbits! Smeagol brings them up secret ways that nobody
+                        else could find. Tired he is, thirsty he is, yes thirsty; and he guides them and he searches
+                        for paths, and they saw sneak, sneak. Very nice friends, O yes my precious, very nice.</p>
+                    <div class="media p-3">
+                        <img src="/img/gollum.jpg" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                        <div class="media-body">
+                            <h4>Gollum <small><i>Posted on September 20, 2020</i></small></h4>
+                            <p>Sneaky little hobbitses. Wicked, tricksy, false!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- 
+    1. Your website should introduce the public to your candidate, explain why they are running, and list three issues that are important to them.
+    2. Website must contain at least 3 distinct organisms that you create using the following:
+        a. Choose at least Four Bootstrap Components to include from this list:
+            Badge 
+            Button <-- IN NAV BAR LINKS
+            Caption
+            Card <-- Endoresements and Values
+            Collapse <-- COMMENTS
+            Icon
+            List Group
+            Media Object <-- COMMENTS
+            Popovers
+            Tooltip
+        b. Use Five Bootstrap Utilities to suit the needs of your website
+    3. A few (more than 3) prominent pictures of your candidate
+    4. A table displaying important information for voters <--- EVENTS SCHEDULE
+    5. A call to action - election day is November 5!
+    6. Scroll to an anchor tag
+    7. Punch out to a website
+
+-->
+
+
+
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
