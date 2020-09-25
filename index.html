@@ -16,51 +16,50 @@
 <body>
 
     <!-- NavBar -->
-    <div class="container-fluid bg-success ">
-        <nav class="navbar bg-success border-bottom border-dark fixed-top navbar-expand-sm">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-md navbar-light bg-success border-bottom border-dark fixed-top">
+        <a class="navbar-brand text-light">Samwise Gamgee 2020</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav nav-pills navbar-nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#issues">Issues</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#values">Values</a>
-                    </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto nav-pills">
+                <li class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="text-light" href="#" >Home</a>
+                </li>
+                <li class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="text-light" href="#issues" >Issues</a>
+                </li>
+                <li class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class=" text-light" href="#values" >Values</a>
+                </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#endorsements">Endorsements</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#events">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#comments">Comments</a>
-                    </li>
-                </ul>
-            </div>
-            <h1 class="text-light float-right">Samwise Gamgee 2020</h1>
-        </nav>
-    </div>
+                <li class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="text-light" href="#endorsements" > Endorsements</a>
+                </li>
+                <li class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="text-light" href="#events" >Events</a>
+                </li>
+                <li class="nav-item nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="text-light" href="#comments" >Comments</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 
     <!-- Jumbotron -->
     <div class="jumbotron card card-image jumbotron-fluid mt-5 mb-5 pl-4 pr-4">
         <div class="container-fluid">
             <div class="row pl-4 pr-4">
-                <div class="col">
-                    <h2 class="pt-3 mb-5"><strong>Sam, the Wise choice for Constable</strong></h2>
-                    <p class="mx-5 mb-5">&quot;There's some good in this world ... and it's worth fighting for.&quot;
+                <div class="col-md-6">
+                    <h2 class="pt-3 mb-4"><strong>Sam, the Wise choice for Constable</strong></h2>
+                    <p class="mx-md-5 mb-md-5 mb-5">&quot;There's some good in this world ... and it's worth fighting for.&quot;
                     </p>
                 </div>
                 <div class="col">
-                    <img id="pipe" src="img/sam-pipe.jpg" class="rounded img-fluid float-right">
+                    <img id="pipe" src="img/sam-pipe.jpg" class="rounded px-sm-0 mx-sm-0 img-fluid float-right">
                 </div>
             </div>
         </div>
@@ -93,7 +92,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="row ">
+                <div class="row flex-column-reverse flex-md-row">
                     <div class="col-md-8 px-3 text-right">
                         <div class="card-block px-3">
                             <h4 class="card-title mt-2">Ending World Hunger</h4>
@@ -353,10 +352,11 @@
                                                 <h4>Gollum <small><i>Posted on September 21, 2020</i></small></h4>
                                                 <p>You don't have any friends. Nobody likes you.</p>
                                                 <div class="media p-3">
-                                                    <img src="img/smeagol2.jpg" alt="Jane Doe" class="mr-3 mt-3 rounded-circle"
-                                                        style="width:60px;">
+                                                    <img src="img/smeagol2.jpg" alt="Jane Doe"
+                                                        class="mr-3 mt-3 rounded-circle" style="width:60px;">
                                                     <div class="media-body">
-                                                        <h4>Smeagol <small><i>Posted on September 21, 2020</i></small></h4>
+                                                        <h4>Smeagol <small><i>Posted on September 21, 2020</i></small>
+                                                        </h4>
                                                         <p>Not listening. I'm not listening.</p>
                                                     </div>
                                                 </div>
